@@ -1,0 +1,104 @@
+head{
+    align-items: normal;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    background-color: white;
+}            
+
+
+#pig-face {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    background-color: gold;
+    border-radius: 90%;
+    border: 8px solid black;
+}
+
+#eye-left, #eye-right {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background-color: gold;
+    border-radius: 50%;
+    border: 5px solid black;
+}
+
+#eye-left {
+    top: 40px;
+    left: 40px;
+}
+
+#eye-right {
+    top: 40px;
+    right: 40px;
+}
+
+#pupil-left, #pupil-right {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: black;
+    border-radius: 50%;
+}
+
+#pupil-left {
+    top: 10px;
+    left: 10px;
+}
+
+#pupil-right {
+    top: 10px;
+    left: 10px;
+}
+
+#nose {
+    position: absolute;
+    width: 90px;
+    height: 60px;
+    background-color: rosybrown;
+    border: 5px solid black;
+    border-radius: 50px / 30px;
+    top: 100px;
+    left: 50px;
+}
+
+#nostril-left, #nostril-right {
+    position: absolute;
+    width: 20px;
+    height: 30px;
+    background-color: black;
+    border-radius: 50%;
+}
+
+#nostril-left {
+    top: 15px;
+    left: 20px;
+}
+
+#nostril-right {
+    top: 15px;
+    right: 20px;
+}
+
+#ear-left, #ear-right {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    background-color: gold;
+    border: 5px solid black;
+    border-radius: 70%;
+}
+
+#ear-left {
+    top: -30px;
+    left:-40px;
+}
+
+#ear-right {
+    top: -30px;
+    right: -40px;
